@@ -10,3 +10,4 @@ bin
 /build
 /captures
 **/*.iml
+app/build
