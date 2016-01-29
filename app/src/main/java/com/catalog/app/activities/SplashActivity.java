@@ -2,12 +2,11 @@ package com.catalog.app.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Handler;
 
 import com.catalog.app.R;
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends BaseActivity {
 
     private static final long SPLASH_DISPLAY_LENGTH = 2500; // in milliseconds
 

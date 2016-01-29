@@ -122,7 +122,7 @@ public class CatalogInteractor implements ICatalogInteractor{
                 appServer.getAppName().getLabel(),
                 appServer.getSummary().getSummary(),
                 appServer.getAppArtist().getName(),
-                appServer.getAppPrice().getPriceAttributes().getCurrency() + " " + appServer.getAppPrice().getPriceAttributes().getPrice(),
+                appServer.getAppPrice().getPriceAttributes().getPrice() + " " + appServer.getAppPrice().getPriceAttributes().getCurrency(),
                 appServer.getAppReleaseDate().getAppReleaseDateAttributes().getLabel(),
                 category
         );

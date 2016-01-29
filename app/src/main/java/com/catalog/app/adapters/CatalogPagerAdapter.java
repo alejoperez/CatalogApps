@@ -4,34 +4,33 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.catalog.app.fragments.PlaceHolderFragment;
+import com.catalog.app.fragments.CategoryFragment;
+import com.catalog.app.model.client.Category;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CatalogPagerAdapter extends FragmentPagerAdapter {
 
-    public CatalogPagerAdapter(FragmentManager fm) {
+    private List<Category> categoryList = new ArrayList<>();
+
+    public CatalogPagerAdapter(FragmentManager fm,List<Category> categoryList) {
         super(fm);
+        this.categoryList = categoryList;
     }
 
     @Override
     public Fragment getItem(int position) {
-        return PlaceHolderFragment.newInstance(position + 1);
+        return CategoryFragment.newInstance(categoryList.get(position));
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return categoryList.size();
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
-        switch (position) {
-            case 0:
-                return "SECTION 1";
-            case 1:
-                return "SECTION 2";
-            case 2:
-                return "SECTION 3";
-        }
-        return null;
+        return categoryList.get(position).getName();
     }
 }

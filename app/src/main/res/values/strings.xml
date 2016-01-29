@@ -4,4 +4,8 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_catalog">CatalogActivity</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="app_price">500 COP</string>
+    <string name="app_summary">Summary</string>
+    <string name="close_dialog">Cerrar</string>
+
 </resources>
