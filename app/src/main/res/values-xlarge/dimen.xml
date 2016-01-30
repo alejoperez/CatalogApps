@@ -11,6 +11,7 @@
     <dimen name="text_view_size">21sp</dimen>
     <dimen name="text_view_size_large">25sp</dimen>
     <dimen name="text_view_size_xlarge">29sp</dimen>
+    <dimen name="text_view_size_splash_screen">55sp</dimen>
 
     <!-- MARGIN -->
     <dimen name="margin_image">50dp</dimen>
