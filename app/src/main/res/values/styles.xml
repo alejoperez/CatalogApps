@@ -16,6 +16,10 @@
         <item name="fontPath">fonts/open_sans_regular.ttf</item>
     </style>
 
+    <style name="TextViewOpenSansBold">
+        <item name="fontPath">fonts/open_sans_bold.ttf</item>
+    </style>
+
     <style name="InverseButton" parent="Widget.AppCompat.Button.Colored">
         <item name="colorButtonNormal">@color/colorAccent</item>
     </style>
