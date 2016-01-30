@@ -1,6 +1,7 @@
 package com.catalog.app.interactors;
 
 import android.content.Context;
+import android.widget.Toast;
 
 import com.activeandroid.query.Select;
 import com.android.volley.Request;
@@ -8,6 +9,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 
+import com.catalog.app.R;
 import com.catalog.app.model.client.App;
 import com.catalog.app.model.client.Image;
 import com.catalog.app.model.client.Category;
@@ -55,6 +57,7 @@ public class CatalogInteractor implements ICatalogInteractor{
 
     @Override
     public void loadCatalogFromServer(Context context, final ICatalogPresenter catalogPresenter){
+        Toast.makeText(context, R.string.loading,Toast.LENGTH_LONG).show();
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, BuildConfig.APP_STORE_URL,new JSONObject(),
                 new Response.Listener<JSONObject>() {
 

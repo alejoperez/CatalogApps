@@ -4,5 +4,6 @@
     <string name="app_summary">Summary:</string>
     <string name="close_dialog">Close</string>
     <string name="connection_error">Network connection problem</string>
+    <string name="loading">Loading&#8230;</string>
 
 </resources>
