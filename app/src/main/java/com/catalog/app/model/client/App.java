@@ -7,6 +7,9 @@ import com.activeandroid.annotation.Table;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * Client class representing an application in local storage
+ */
 @Table(name = App.TABLE_NAME)
 public class App extends Model implements Serializable{
 

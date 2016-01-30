@@ -1,5 +1,11 @@
 package com.catalog.app.graphic;
 
+/**
+ * Enum that represents how much is needed scale an image.
+ * The reference image is: R.mipmap.ic_launcher
+ *
+ * i.e.: ScaleImageEnum.TWO means 2 times R.mipmap.ic_launcher
+ */
 public enum ScaleImageEnum {
     ONE(1),
     TWO(2),

@@ -21,6 +21,9 @@ import java.util.List;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
+/**
+ * ArrayAdapter responsible for showing app list for one category
+ */
 public class CatalogAppAdapter extends ArrayAdapter<App>{
 
     private List<App> appList = new ArrayList<>();
@@ -63,7 +66,7 @@ public class CatalogAppAdapter extends ArrayAdapter<App>{
 
         App app = getItem(position);
         holder.textViewName.setText(app.getAppName());
-        ImageLoader.getInstance().displayImage(app.getImageList().get(1).getImageUrl(), holder.imageViewApp, GraphicUtilities.getDisplayOptions());
+        ImageLoader.getInstance().displayImage(app.getImageList().get(2).getImageUrl(), holder.imageViewApp, GraphicUtilities.getDisplayOptions());
 
         return view;
     }

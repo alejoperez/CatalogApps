@@ -2,6 +2,9 @@ package com.catalog.app.model.server;
 
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * Server class representing image url of an application in JSON server response
+ */
 import java.io.Serializable;
 
 public class AppImage implements Serializable {

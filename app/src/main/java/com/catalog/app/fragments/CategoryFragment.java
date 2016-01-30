@@ -19,6 +19,9 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnItemClick;
 
+/**
+ * Fragment responsible for showing a list of application of an specific category
+ */
 public class CategoryFragment extends Fragment {
 
     private static final String CATEGORY = "category";
@@ -55,7 +58,6 @@ public class CategoryFragment extends Fragment {
     public void onResume() {
         super.onResume();
         loadUserInterface();
-        showGridViewAnimation();
     }
 
     private void loadUserInterface() {

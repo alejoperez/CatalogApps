@@ -7,6 +7,9 @@ import com.catalog.app.presenters.ICatalogPresenter;
 
 import java.util.List;
 
+/**
+ * Catalog Interactor interface with base methods
+ */
 public interface ICatalogInteractor {
     void loadCatalog(Context context,ICatalogPresenter catalogPresenter);
     boolean isCatalogInLocalStorage();

@@ -5,6 +5,9 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
+/**
+ * Server class representing an artist of an application in JSON server response
+ */
 public class AppArtist implements Serializable{
 
     private static final String NAME = "label";

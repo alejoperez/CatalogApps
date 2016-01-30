@@ -2,6 +2,9 @@ package com.catalog.app.model.server;
 
 import java.io.Serializable;
 
+/**
+ * Server class representing attributes of category in JSON server response
+ */
 public class AppCategoryAttributes implements Serializable{
 
     private String label;
