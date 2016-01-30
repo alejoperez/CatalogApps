@@ -14,6 +14,12 @@
         <item name="colorButtonNormal">@color/colorAccent</item>
     </style>
 
+    <style name="Widget.MyApp.HeaderBar.Spinner" parent="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:dropDownSelector">@color/colorLightPrimary</item>
+        <item name="android:divider">@null</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

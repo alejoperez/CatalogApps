@@ -55,7 +55,6 @@ public class CategoryFragment extends Fragment {
     public void onResume() {
         super.onResume();
         loadUserInterface();
-        showGridViewAnimation();
     }
 
     private void loadUserInterface() {

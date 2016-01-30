@@ -32,4 +32,9 @@ public class Category extends Model implements Serializable{
     public List<App> getAppList() {
         return getMany(App.class, App.CATEGORY);
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
