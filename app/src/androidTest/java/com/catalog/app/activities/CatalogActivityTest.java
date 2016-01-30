@@ -18,6 +18,9 @@ import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.action.ViewActions.swipeLeft;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 
+/**
+ * Functional test for CatalogActivity
+ */
 @RunWith(AndroidJUnit4.class)
 @LargeTest
 public class CatalogActivityTest {

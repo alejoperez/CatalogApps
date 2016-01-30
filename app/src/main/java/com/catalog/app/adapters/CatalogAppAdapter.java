@@ -21,6 +21,9 @@ import java.util.List;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
+/**
+ * ArrayAdapter responsible for showing app list for one category
+ */
 public class CatalogAppAdapter extends ArrayAdapter<App>{
 
     private List<App> appList = new ArrayList<>();

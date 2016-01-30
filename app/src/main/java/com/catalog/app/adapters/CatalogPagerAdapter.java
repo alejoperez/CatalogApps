@@ -10,6 +10,10 @@ import com.catalog.app.model.client.Category;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * FragmentPagerAdapter responsible for showing app categories.
+ * Each category per fragment.
+ */
 public class CatalogPagerAdapter extends FragmentPagerAdapter {
 
     private List<Category> categoryList = new ArrayList<>();

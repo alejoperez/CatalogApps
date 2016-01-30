@@ -4,6 +4,9 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
+/**
+ * Server class representing AppStore in JSON server response
+ */
 public class AppStore implements Serializable {
 
     private static final String APP_STORE_CONTENT = "feed";

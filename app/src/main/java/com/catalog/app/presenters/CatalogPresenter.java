@@ -8,6 +8,9 @@ import com.catalog.app.views.ICatalogView;
 
 import java.util.List;
 
+/**
+ * Presenter responsible for retrive app catalog from a data source using catalog interactor object
+ */
 public class CatalogPresenter implements ICatalogPresenter{
 
     private Context context;

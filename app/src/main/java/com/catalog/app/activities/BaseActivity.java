@@ -9,6 +9,9 @@ import com.catalog.app.R;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
+/**
+ * BaseActivity parent with base configuration
+ */
 public class BaseActivity extends AppCompatActivity {
 
     @Override

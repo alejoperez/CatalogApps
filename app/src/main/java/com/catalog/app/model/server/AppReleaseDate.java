@@ -4,6 +4,9 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
+/**
+ * Server class representing application release date in JSON server response
+ */
 public class AppReleaseDate implements Serializable{
 
     private static final String ATTRIBUTES = "attributes";

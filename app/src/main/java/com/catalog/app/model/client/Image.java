@@ -6,6 +6,9 @@ import com.activeandroid.annotation.Table;
 
 import java.io.Serializable;
 
+/**
+ * Client class representing an image of an application in local storage
+ */
 @Table(name = Image.TABLE_NAME)
 public class Image extends Model implements Serializable {
 

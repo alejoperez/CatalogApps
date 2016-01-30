@@ -7,6 +7,9 @@ import com.catalog.app.R;
 import com.catalog.app.graphic.ScaleImageEnum;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 
+/**
+ * Class responsible for provide methods helping image management
+ */
 public class GraphicUtilities {
 
     public static DisplayImageOptions getDisplayOptions(){

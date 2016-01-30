@@ -4,6 +4,9 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
+/**
+ * Server class representing a category in JSON server response
+ */
 public class AppCategory implements Serializable{
 
     private static final String ATTRIBUTES = "attributes";

@@ -2,6 +2,9 @@ package com.catalog.app.activities;
 
 import android.support.test.espresso.IdlingResource;
 
+/**
+ * Class that wait to load app catalog before testing CatalogActivity
+ */
 public class CatalogIdlingResource implements IdlingResource {
 
     ResourceCallback resourceCallback;

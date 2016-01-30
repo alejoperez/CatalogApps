@@ -20,6 +20,10 @@ import butterknife.ButterKnife;
 import butterknife.OnItemSelected;
 import butterknife.OnPageChange;
 
+/**
+ * Activity responsible for displaying the top free application of AppleStore.
+ * ViewPager and Spinner view contains app categories
+ */
 public class CatalogActivity extends BaseActivity implements ICatalogView{
 
     @Bind(R.id.container)

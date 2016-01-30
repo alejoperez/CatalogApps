@@ -4,6 +4,9 @@ import junit.framework.TestCase;
 
 import org.junit.Test;
 
+/**
+ * Class responsible for test ScaleImageEnum
+ */
 public class ScaleImageEnumTest extends TestCase {
 
     @Test

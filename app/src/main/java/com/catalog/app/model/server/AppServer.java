@@ -7,6 +7,9 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Server class representing an application in JSON server response
+ */
 public class AppServer implements Serializable {
 
     private static final String APP_NAME = "im:name";

@@ -5,6 +5,9 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
+/**
+ * Server class representing application price attributes in JSON server response
+ */
 public class AppPriceAttributes implements Serializable{
 
     private static final String PRICE = "amount";

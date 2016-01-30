@@ -12,6 +12,9 @@ import com.catalog.app.views.ISplashView;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
+/**
+ * SplashActivity showing initial animation
+ */
 public class SplashActivity extends BaseActivity implements ISplashView{
 
     @Bind(R.id.Splash_Screen_ImageView)

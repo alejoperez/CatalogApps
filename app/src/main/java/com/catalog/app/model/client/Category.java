@@ -7,6 +7,9 @@ import com.activeandroid.annotation.Table;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * Client class representing a category in local storage
+ */
 @Table(name = Category.TABLE_NAME)
 public class Category extends Model implements Serializable{
 

@@ -6,6 +6,9 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Server class representing AppStore content in JSON server response
+ */
 public class AppStoreContent  implements Serializable {
 
     private static final String APPS = "entry";

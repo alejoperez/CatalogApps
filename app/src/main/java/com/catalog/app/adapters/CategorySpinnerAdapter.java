@@ -17,6 +17,9 @@ import java.util.List;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
+/**
+ * ArrayAdapter for Spinner in CatalogActivity Action Bar. It displays all app categories.
+ */
 public class CategorySpinnerAdapter extends ArrayAdapter<Category> implements ThemedSpinnerAdapter {
 
     private Helper dropDownHelper;

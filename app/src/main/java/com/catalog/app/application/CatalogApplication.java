@@ -10,6 +10,9 @@ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
+/**
+ * CatalogApplication with base configurations
+ */
 public class CatalogApplication extends Application{
 
     @Override

@@ -10,6 +10,9 @@ import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
 import com.nineoldandroids.animation.Animator;
 
+/**
+ * SplashAnimation in SplashActivity
+ */
 public class SplashAnimation {
 
     private static final long SPLASH_IMAGE_VIEW_ANIMATION = 3000; // in milliseconds

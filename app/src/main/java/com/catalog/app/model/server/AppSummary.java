@@ -4,6 +4,9 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
+/**
+ * Server class representing app summary in JSON server response
+ */
 public class AppSummary implements Serializable{
 
     private static final String SUMMARY = "label";

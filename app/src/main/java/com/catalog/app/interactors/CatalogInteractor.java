@@ -24,6 +24,10 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Interactor responsible for loading app catalog from local storage.
+ * If local storage is empty, app catalog is loaded from server url
+ */
 public class CatalogInteractor implements ICatalogInteractor{
 
     public static final int NOT_FOUND = -1;

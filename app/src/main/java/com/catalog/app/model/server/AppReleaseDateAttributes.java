@@ -2,6 +2,9 @@ package com.catalog.app.model.server;
 
 import java.io.Serializable;
 
+/**
+ * Server class representing application release date attributes in JSON server response
+ */
 public class AppReleaseDateAttributes implements Serializable{
 
     private String label;
