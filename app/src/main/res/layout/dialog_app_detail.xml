@@ -79,7 +79,7 @@
                 android:id="@+id/App_Detail_Dialog_TextView_Summary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:maxLines="10"
+                android:maxLines="7"
                 android:scrollbars="vertical"
                 android:text="@string/app_summary"
                 android:textColor="@color/dark_black"
@@ -102,7 +102,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/close_dialog"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_view_size"/>
 
         <Button
             android:id="@+id/App_Detail_Dialog_Button_Buy"
@@ -110,7 +111,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/app_price"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_view_size"/>
 
 
     </LinearLayout>
